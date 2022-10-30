@@ -13,7 +13,7 @@
 
 
 int main(void)
-
+/*returns */
 {
 
 	char alpha = 'a';
