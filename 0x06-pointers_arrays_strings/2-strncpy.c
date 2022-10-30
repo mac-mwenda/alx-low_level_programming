@@ -1,4 +1,6 @@
-trncpy - A function that copies a string.
+/**
+
+ * _strncpy - A function that copies a string.
 
  *
 
