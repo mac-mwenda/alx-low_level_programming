@@ -1,30 +1,30 @@
-nclude <unistd.h>
-
 #include <stdio.h>
+
+#include <ctype.h>
 
 /**
 
- * main - Entry point
+*main - Program to print alphabet letters in reverse followed by new line
 
- * Description: prints lowercase alphabets in reverse
+*
 
- * Return: Always 0 (success)
+*Return: return 0
 
- */
+*/
 
 int main(void)
 
 {
 
-	int a;
+	int letter;
 
 
 
-	for (a = 'z'; a >= 'a'; a--)
+	for (letter = 'z'; letter >= 'a'; letter--)
 
 	{
 
-		putchar(a);
+		putchar(letter);
 
 	}
 
