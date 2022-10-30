@@ -1,27 +1,36 @@
-ines (12 sloc)  247 Bytes
 
-#include <unistd.h>
-
-
+#include "main.h"
 
 /**
 
- * _putchar - writes the character c to stdout
+ * main - prints _putchar, fllowd by a new linees
 
- * @c: The character to print
-
- *
-
- * Return: On success 1.
-
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Alwys 0 (Success)
 
  */
 
-int _putchar(char c)
+int main(void)
 
 {
-  
-  return (write(1, &c, 1));
-  
+
+	char abe[] = "_putchar";
+
+
+
+	int c;
+
+
+
+	for (c = 0; c < 8; c++)
+
+	{
+
+		_putchar(abe[c]);
+
+	}
+
+	_putchar('\n');
+
+	return (0);
+
 }
